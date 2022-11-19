@@ -28,6 +28,13 @@ updaterc() {
 export PYTHONUSERBASE=/tmp/pip-tmp
 export PIP_CACHE_DIR=/tmp/pip-tmp/cache
 
+# install curl if does not exists
+if ! type curl >/dev/null 2>&1; then
+    echo "Installing curl..."
+
+    apt install curl
+fi
+
 # install python if does not exists
 if ! type pip3 >/dev/null 2>&1; then
     echo "Installing python3..."
