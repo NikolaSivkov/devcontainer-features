@@ -3,7 +3,7 @@
     "name": "ansible-lint",
     "id": "ansible-lint",
     "version": "1.0.0",
-    "description": "yamllint is a Python utility / library to sort imports alphabetically, and automatically separated into sections and by type.",
+    "description": "Ansible Lint is a command-line tool for linting playbooks, roles and collections aimed toward any Ansible users.",
     "documentationURL": "https://github.com/NikolaSivkov/ansible-lint-devcontainer-feature",
     "installAfter": [
         "ghcr.io/devcontainers/features/python:latest"
