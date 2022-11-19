@@ -31,7 +31,7 @@ export PIP_CACHE_DIR=/tmp/pip-tmp/cache
 # install curl if does not exists
 if ! type curl >/dev/null 2>&1; then
     echo "Installing curl..."
-
+    apt update
     apt install curl
 fi
 
