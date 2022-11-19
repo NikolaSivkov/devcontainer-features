@@ -32,7 +32,7 @@ export PIP_CACHE_DIR=/tmp/pip-tmp/cache
 if ! type curl >/dev/null 2>&1; then
     echo "Installing curl..."
     apt update
-    apt install curl
+    apt install -y curl
 fi
 
 # install python if does not exists
