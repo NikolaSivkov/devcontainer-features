@@ -1,12 +1,9 @@
 {
-    "color_and_hello": {
+    "ansible-lint": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "color": {
+            "ansible-lint": {
                 "favorite": "purple"
-            },
-            "hello": {
-                "greeting": "Greetings"
             }
         }
     }

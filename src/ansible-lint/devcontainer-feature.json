@@ -1,0 +1,16 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vscode/main/extensions/configuration-editing/schemas/devContainer.vscode.schema.json",
+    "name": "ansible-lint",
+    "id": "ansible-lint",
+    "version": "1.0.0",
+    "description": "yamllint is a Python utility / library to sort imports alphabetically, and automatically separated into sections and by type.",
+    "documentationURL": "https://github.com/NikolaSivkov/ansible-lint-devcontainer-feature",
+    "installAfter": [
+        "ghcr.io/devcontainers/features/python:latest"
+    ],
+    "options": {},
+    "keywords": [
+        "ansible",
+        "ansible-lint"
+    ]
+}

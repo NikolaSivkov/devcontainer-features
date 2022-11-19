@@ -13,12 +13,12 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - ansible-lint
         baseImage:
           - debian:latest
           - ubuntu:latest
           - mcr.microsoft.com/devcontainers/base:ubuntu
+          - mcr.microsoft.com/devcontainers/base:bullseye
     steps:
       - uses: actions/checkout@v2
 
