@@ -45,7 +45,7 @@ if ! type pip3 >/dev/null 2>&1; then
 
     export VERSION="system"
     export INSTALLTOOLS="false"
-    wget -O - https://raw.githubusercontent.com/devcontainers/features/main/src/python/install.sh | $SHELL
+    curl -fsSL https://raw.githubusercontent.com/devcontainers/features/main/src/python/install.sh | $SHELL
 fi
 
 # configuring install location
