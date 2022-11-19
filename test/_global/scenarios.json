@@ -2,9 +2,7 @@
     "ansible-lint": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "ansible-lint": {
-                "favorite": "purple"
-            }
+            "ansible-lint": {}
         }
     }
 }
